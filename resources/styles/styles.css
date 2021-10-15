@@ -1,3 +1,22 @@
+/*
+
+Colour themes (feel free to add/update any of them,
+just make sure to also change all occurances in the
+rest of the file):
+    - #4F4947
+
+
+*/
+
+
 * {
     margin: 0;
+}
+
+#navbar {
+    background-color: #4F4947;
+}
+
+#navbar a:link {
+    color: white;
 }

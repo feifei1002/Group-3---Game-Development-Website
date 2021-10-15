@@ -82,6 +82,15 @@ body {
     color: white;
 }
 
+#contact-us {
+    color: white;
+    display: flex;
+    padding-top: 10%;
+    font-family: Arial;
+    line-height: 30px;;
+    justify-content: center;
+}
+
 .title {
   font-size: 20px;
   font-family: Arial;

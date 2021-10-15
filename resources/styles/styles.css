@@ -171,3 +171,7 @@ a:visited {
 .grid-item a:visited {
   color:black;
 }
+
+#footer {
+    text-align: center;
+}

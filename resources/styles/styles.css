@@ -13,15 +13,20 @@ rest of the file):
     margin: 0;
 }
 
+body {
+    background-color: #808080;
+}
+
 #navbar {
     background-color: #4F4947;
     border-radius: 15px;
     display: flex;
     justify-content: space-around;
-    margin: 30px;
+    margin: 30px 100px;
 }
 
-#navbar div{
+#navbar div {
+    border-radius: 10px;
     padding: 20px;
 }
 
@@ -33,7 +38,27 @@ rest of the file):
 
 #navbar a:any-link {
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
     text-decoration: none;
+}
+
+#best-sellers {
+    display: grid;
+    margin: 10px 20%;
+}
+
+#best-sellers img {
+    border-radius: 15px;
+    opacity: 70%;
+    transition: 2s;
+}
+
+#best-sellers img:hover {
+    border-radius: 40px;
+    height: 35%;
+    opacity: 100%;
+    transition: 1s ease-in-out;
 }
 
 .title {

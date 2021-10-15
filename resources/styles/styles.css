@@ -14,13 +14,24 @@ rest of the file):
 }
 
 #navbar {
-    margin: 40px 20px;
     background-color: #4F4947;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
 }
 
-#navbar a:link {
+#navbar div{
+    padding: 20px;
+}
+
+#navbar div:hover {
+    background-color: white;
+    color: black;
+    transition: .7s;
+}
+
+#navbar a:any-link {
     color: white;
-    
-    margin: 20px;
     text-decoration: none;
 }

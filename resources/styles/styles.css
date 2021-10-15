@@ -158,3 +158,15 @@ a:visited {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
   }
+
+.grid-item a:link {
+  color: black;
+}
+
+.grid-item a:hover {
+  color: #8ebf42;
+}
+
+.grid-item a:visited {
+  color:black;
+}

@@ -94,13 +94,28 @@ body {
     display: flex;
     padding-top: 10%;
     font-family: Arial;
-    line-height: 30px;;
+    line-height: 30px;
     justify-content: center;
 }
 
 .title {
   font-size: 20px;
   font-family: Arial;
+}
+
+.about-us {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.about-us h1 {
+    padding-top: 7%;
+}
+
+.about-us h2 {
+    font-weight: 900;
+    padding-top: 30px;
 }
 
 #preorder {

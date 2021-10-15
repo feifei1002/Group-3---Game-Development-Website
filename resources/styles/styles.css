@@ -75,13 +75,18 @@ body {
 
 #best-sellers .overlay {
     position: relative;
-    bottom: 20%;
+    bottom: 25%;
     left: 10%;
     right: 10%;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     user-select: none;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
 }
 
 .price {
@@ -91,11 +96,20 @@ body {
 
 #contact-us {
     color: white;
-    display: flex;
     padding-top: 10%;
     font-family: Arial;
     line-height: 30px;
+    display: flex;
     justify-content: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.support {
+    color: white;
 }
 
 .title {

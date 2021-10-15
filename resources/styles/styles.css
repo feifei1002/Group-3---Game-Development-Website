@@ -107,3 +107,20 @@ body {
   font-size: 20px;
   font-family: Arial;
 }
+
+#footer {
+  border: solid;
+  background-color: black;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: #8ebf42;
+      }
+
+a:visited {
+  color: white;
+}

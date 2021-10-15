@@ -57,6 +57,7 @@ body {
 
 #best-sellers img {
     border-radius: 35px;
+    filter: drop-shadow(5px 5px 5px);
     display: block;
     padding: 15px;
     height: 50%;
@@ -80,6 +81,12 @@ body {
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    user-select: none;
+}
+
+.price {
+    left: 70%;
+    bottom: 3%;
 }
 
 #contact-us {
